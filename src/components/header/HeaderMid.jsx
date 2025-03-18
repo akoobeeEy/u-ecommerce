@@ -124,7 +124,7 @@ const HeaderMid = memo(() => {
     setShowCartMenu(false);
   };
   return (
-    <Box className={`header-mid ${isScrolled ? "fixed" : ""}`}>
+    <Box className={`header-mid ${isScrolled ? "fixed" : ""}`} >
       <Container maxW={"1200px"}>
         <Box fontFamily={theme.fonts.fInter}>
           {/* logo */}
